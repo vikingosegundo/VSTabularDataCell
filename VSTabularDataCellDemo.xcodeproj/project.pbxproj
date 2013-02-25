@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6402A07015929020000798DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A06F15929020000798DC /* UIKit.framework */; };
+		6402A07215929020000798DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A07115929020000798DC /* Foundation.framework */; };
+		6402A07415929020000798DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A07315929020000798DC /* CoreGraphics.framework */; };
+		6402A07A15929020000798DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6402A07815929020000798DC /* InfoPlist.strings */; };
+		6402A07C15929020000798DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A07B15929020000798DC /* main.m */; };
+		6402A08015929020000798DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A07F15929020000798DC /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6402A08315929020000798DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A08215929020000798DC /* ViewController.m */; };
+		6402A08615929020000798DC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6402A08415929020000798DC /* ViewController_iPhone.xib */; };
+		6402A08915929020000798DC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6402A08715929020000798DC /* ViewController_iPad.xib */; };
+		6402A09115929020000798DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A09015929020000798DC /* SenTestingKit.framework */; };
+		6402A09215929020000798DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A06F15929020000798DC /* UIKit.framework */; };
+		6402A09315929020000798DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6402A07115929020000798DC /* Foundation.framework */; };
+		6402A09B15929020000798DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6402A09915929020000798DC /* InfoPlist.strings */; };
+		6402A09E15929020000798DC /* VSTabularDataCellDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A09D15929020000798DC /* VSTabularDataCellDemoTests.m */; };
+		6402A0A9159290C6000798DC /* VSTabularCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A0A8159290C6000798DC /* VSTabularCell.m */; };
+		6402A0AA159290C6000798DC /* VSTabularCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6402A0A8159290C6000798DC /* VSTabularCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6402A09415929020000798DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6402A0621592901F000798DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6402A06A1592901F000798DC;
+			remoteInfo = VSTabularDataCellDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6402A06B1592901F000798DC /* VSTabularDataCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTabularDataCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6402A06F15929020000798DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6402A07115929020000798DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6402A07315929020000798DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6402A07715929020000798DC /* VSTabularDataCellDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSTabularDataCellDemo-Info.plist"; sourceTree = "<group>"; };
+		6402A07915929020000798DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6402A07B15929020000798DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6402A07D15929020000798DC /* VSTabularDataCellDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSTabularDataCellDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6402A07E15929020000798DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6402A07F15929020000798DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6402A08115929020000798DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6402A08215929020000798DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6402A08515929020000798DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6402A08815929020000798DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6402A08F15929020000798DC /* VSTabularDataCellDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTabularDataCellDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6402A09015929020000798DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6402A09815929020000798DC /* VSTabularDataCellDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSTabularDataCellDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6402A09A15929020000798DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6402A09C15929020000798DC /* VSTabularDataCellDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSTabularDataCellDemoTests.h; sourceTree = "<group>"; };
+		6402A09D15929020000798DC /* VSTabularDataCellDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTabularDataCellDemoTests.m; sourceTree = "<group>"; };
+		6402A0A7159290C6000798DC /* VSTabularCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTabularCell.h; sourceTree = "<group>"; };
+		6402A0A8159290C6000798DC /* VSTabularCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTabularCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6402A0681592901F000798DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A07015929020000798DC /* UIKit.framework in Frameworks */,
+				6402A07215929020000798DC /* Foundation.framework in Frameworks */,
+				6402A07415929020000798DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6402A08B15929020000798DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A09115929020000798DC /* SenTestingKit.framework in Frameworks */,
+				6402A09215929020000798DC /* UIKit.framework in Frameworks */,
+				6402A09315929020000798DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6402A0601592901F000798DC = {
+			isa = PBXGroup;
+			children = (
+				6402A07515929020000798DC /* VSTabularDataCellDemo */,
+				6402A09615929020000798DC /* VSTabularDataCellDemoTests */,
+				6402A06E1592901F000798DC /* Frameworks */,
+				6402A06C1592901F000798DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6402A06C1592901F000798DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6402A06B1592901F000798DC /* VSTabularDataCellDemo.app */,
+				6402A08F15929020000798DC /* VSTabularDataCellDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6402A06E1592901F000798DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6402A06F15929020000798DC /* UIKit.framework */,
+				6402A07115929020000798DC /* Foundation.framework */,
+				6402A07315929020000798DC /* CoreGraphics.framework */,
+				6402A09015929020000798DC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6402A07515929020000798DC /* VSTabularDataCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6402A0A7159290C6000798DC /* VSTabularCell.h */,
+				6402A0A8159290C6000798DC /* VSTabularCell.m */,
+				6402A07E15929020000798DC /* AppDelegate.h */,
+				6402A07F15929020000798DC /* AppDelegate.m */,
+				6402A08115929020000798DC /* ViewController.h */,
+				6402A08215929020000798DC /* ViewController.m */,
+				6402A08415929020000798DC /* ViewController_iPhone.xib */,
+				6402A08715929020000798DC /* ViewController_iPad.xib */,
+				6402A07615929020000798DC /* Supporting Files */,
+			);
+			path = VSTabularDataCellDemo;
+			sourceTree = "<group>";
+		};
+		6402A07615929020000798DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6402A07715929020000798DC /* VSTabularDataCellDemo-Info.plist */,
+				6402A07815929020000798DC /* InfoPlist.strings */,
+				6402A07B15929020000798DC /* main.m */,
+				6402A07D15929020000798DC /* VSTabularDataCellDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6402A09615929020000798DC /* VSTabularDataCellDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6402A09C15929020000798DC /* VSTabularDataCellDemoTests.h */,
+				6402A09D15929020000798DC /* VSTabularDataCellDemoTests.m */,
+				6402A09715929020000798DC /* Supporting Files */,
+			);
+			path = VSTabularDataCellDemoTests;
+			sourceTree = "<group>";
+		};
+		6402A09715929020000798DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6402A09815929020000798DC /* VSTabularDataCellDemoTests-Info.plist */,
+				6402A09915929020000798DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6402A06A1592901F000798DC /* VSTabularDataCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6402A0A115929020000798DC /* Build configuration list for PBXNativeTarget "VSTabularDataCellDemo" */;
+			buildPhases = (
+				6402A0671592901F000798DC /* Sources */,
+				6402A0681592901F000798DC /* Frameworks */,
+				6402A0691592901F000798DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSTabularDataCellDemo;
+			productName = VSTabularDataCellDemo;
+			productReference = 6402A06B1592901F000798DC /* VSTabularDataCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6402A08E15929020000798DC /* VSTabularDataCellDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6402A0A415929020000798DC /* Build configuration list for PBXNativeTarget "VSTabularDataCellDemoTests" */;
+			buildPhases = (
+				6402A08A15929020000798DC /* Sources */,
+				6402A08B15929020000798DC /* Frameworks */,
+				6402A08C15929020000798DC /* Resources */,
+				6402A08D15929020000798DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6402A09515929020000798DC /* PBXTargetDependency */,
+			);
+			name = VSTabularDataCellDemoTests;
+			productName = VSTabularDataCellDemoTests;
+			productReference = 6402A08F15929020000798DC /* VSTabularDataCellDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6402A0621592901F000798DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Pepe;
+			};
+			buildConfigurationList = 6402A0651592901F000798DC /* Build configuration list for PBXProject "VSTabularDataCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6402A0601592901F000798DC;
+			productRefGroup = 6402A06C1592901F000798DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6402A06A1592901F000798DC /* VSTabularDataCellDemo */,
+				6402A08E15929020000798DC /* VSTabularDataCellDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6402A0691592901F000798DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A07A15929020000798DC /* InfoPlist.strings in Resources */,
+				6402A08615929020000798DC /* ViewController_iPhone.xib in Resources */,
+				6402A08915929020000798DC /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6402A08C15929020000798DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A09B15929020000798DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6402A08D15929020000798DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6402A0671592901F000798DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A07C15929020000798DC /* main.m in Sources */,
+				6402A08015929020000798DC /* AppDelegate.m in Sources */,
+				6402A08315929020000798DC /* ViewController.m in Sources */,
+				6402A0A9159290C6000798DC /* VSTabularCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6402A08A15929020000798DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6402A09E15929020000798DC /* VSTabularDataCellDemoTests.m in Sources */,
+				6402A0AA159290C6000798DC /* VSTabularCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6402A09515929020000798DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6402A06A1592901F000798DC /* VSTabularDataCellDemo */;
+			targetProxy = 6402A09415929020000798DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6402A07815929020000798DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402A07915929020000798DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6402A08415929020000798DC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402A08515929020000798DC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6402A08715929020000798DC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402A08815929020000798DC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6402A09915929020000798DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6402A09A15929020000798DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6402A09F15929020000798DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6402A0A015929020000798DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6402A0A215929020000798DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSTabularDataCellDemo/VSTabularDataCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "VSTabularDataCellDemo/VSTabularDataCellDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6402A0A315929020000798DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSTabularDataCellDemo/VSTabularDataCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "VSTabularDataCellDemo/VSTabularDataCellDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6402A0A515929020000798DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSTabularDataCellDemo.app/VSTabularDataCellDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSTabularDataCellDemo/VSTabularDataCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "VSTabularDataCellDemoTests/VSTabularDataCellDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6402A0A615929020000798DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSTabularDataCellDemo.app/VSTabularDataCellDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSTabularDataCellDemo/VSTabularDataCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "VSTabularDataCellDemoTests/VSTabularDataCellDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6402A0651592901F000798DC /* Build configuration list for PBXProject "VSTabularDataCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402A09F15929020000798DC /* Debug */,
+				6402A0A015929020000798DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6402A0A115929020000798DC /* Build configuration list for PBXNativeTarget "VSTabularDataCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402A0A215929020000798DC /* Debug */,
+				6402A0A315929020000798DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6402A0A415929020000798DC /* Build configuration list for PBXNativeTarget "VSTabularDataCellDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6402A0A515929020000798DC /* Debug */,
+				6402A0A615929020000798DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6402A0621592901F000798DC /* Project object */;
+}
